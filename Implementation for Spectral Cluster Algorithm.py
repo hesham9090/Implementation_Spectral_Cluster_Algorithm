@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 #load data
-data_file = "E:\\Operation\\Masters\\Nile University\\Informatics Program\\Semster Feb - May 2019\\Introduction to Machine Learning and Statistical Analysis\\Week 13\SpectData.txt"
+data_file = "SpectData.txt"
 data = np.loadtxt(data_file, dtype= float)
 print(data.shape)
 
